@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify-Music and Podcasts</title>
+</head>
+<body>
+     <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+     </nav>
+     <div class="container">
+        <div class="songlist">
+         <h1>Best of Weeknd-Hits</h1>
+         <div>
+        <div class="songItem">
+            <img src="cover1.jpg" alt="1">
+            <span>Starboy</span>
+            <span class="songListplay"><span class="timestamp">3:50 <i id="1" class="far fa-circle-play"></i></span> </span>
+        </div>
+        <div class="songItem">
+         <img src="cover2.jpg" alt="1">
+         <span>I Feel It Coming</span>
+         <span class="songListplay"><span class="timestamp">4:29 <i id="2" class="far songItemPlay fa-circle-play"></i></span> </span>
+        </div>
+       <div class="songItem">
+      <img src="cover3.jpg" alt="1">
+      <span>The Hills</span>
+      <span class="songListplay"><span class="timestamp">4:02 <i id="3" class="far songItemPlay fa-circle-play"></i></span> </span>
+  </div>
+  <div class="songItem">
+   <img src="cover4.jpg" alt="1">
+   <span>Blinding Lights</span>
+   <span class="songListplay"><span class="timestamp">3:20 <i id="4" class="far songItemPlay fa-circle-play"></i></span> </span>
+</div>
+<div class="songItem">
+   <img src="cover5.jpg" alt="1">
+   <span>Save Your Tears</span>
+   <span class="songListplay"><span class="timestamp">3:35 <i id="5" class="far songItemPlay fa-circle-play"></i></span> </span>
+</div>
+<div class="songItem">
+   <img src="cover6.jpg" alt="1">
+   <span>Pray For Me</span>
+   <span class="songListplay"><span class="timestamp">3:31 <i id="6" class="far songItemPlay fa-circle-play"></i></span> </span>
+</div>
+<div class="songItem">
+   <img src="cover7.jpg" alt="1">
+   <span>Heartless</span>
+   <span class="songListplay"><span class="timestamp">3:18 <i id="7" class="far songItemPlay fa-circle-play"></i></span> </span>
+</div>
+         </div>
+        </div>
+        <div class="songbanner"></div>
+        <div class="icons"></div>
+     </div>
+
+     <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+         <!--fontawesome icons-->
+         <i class="fas fa-3x fa-step-backward" id="previous"></i>
+         <i class="far fa-3x fa-circle-play" id="masterPlay"></i>
+         <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+         <img src="bars.gif" width="60px" alt="" id="gif"> <span id="masterSongName"></span>
+        </div>
+     </div>
+     <script src="https://kit.fontawesome.com/c43fe2ee47.js" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+</body>
+</html>
